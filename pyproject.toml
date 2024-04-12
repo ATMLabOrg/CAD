@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "CAD"
+version = "0.1.0"
+description = "Code for the paper AI-Driven Identification of Contrail Sources: Integrating Satellite Observation and Air Traffic Data"
+authors = ["Emmanuel Riggi--Carrolo <emmanuelriggicarrolo@gmail.com>", "Thomas Dubot <Thomas.Dubot@onera.fr>", "Claire Sarrat <Claire.Sarrat@onera.fr>", "Judicaël Bedouet <Judicael.Bedouet@onera.fr>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+traffic = "^2.9.0"
+scipy = "1.10.0"
+opencv-python = "^4.9.0.80"
+netcdf4 = "^1.6.5"
+scikit-learn = "^1.4.1.post1"
+ipykernel = "^6.29.4"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
