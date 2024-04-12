@@ -12,7 +12,6 @@ opencv-python = "^4.9.0.80"
 netcdf4 = "^1.6.5"
 scikit-learn = "^1.4.1.post1"
 ipykernel = "^6.29.4"
-jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
